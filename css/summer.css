@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,h6,p,ul,dl,dd,input,button,img{margin:0;padding:0;}
+html{width:100%;height:100%;font-size:12px;}
+body{position:relative;min-width:320px;min-height:100%;height:auto;overflow-x:hidden;background-color:#7fd29c;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-font-smoothing:antialiased;
+    -moz-user-select:none;
+}
+body,button,input,select,textarea,h1,h2,h3,h4,h5,h6{font:normal 12px/1.5 Arial,"Lucida Grande",Verdana,"Microsoft YaHei",hei;}
+input,button{border:0 none;outline:0 none;-webkit-appearance:none;}
+ul li{list-style:none;}
+img{width: 100%; height: auto; vertical-align:top;border:none;margin:0;padding:0;}
+.clamp2, .clamp3, .clamp4, .clamp5{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;}
+.clamp2{-webkit-line-clamp: 2;}
+.clamp3{-webkit-line-clamp: 3;}
+.clamp4{-webkit-line-clamp: 4;}
+.clamp5{-webkit-line-clamp: 5;}
+a{text-decoration:none;display:block;color:#fff;}
+dfn,em{font-style:normal;}
+.fl{float:left;}
+.fr{float:right;}
+.cf{zoom:1;}
+.clearfix{*zoom:1;}
+.clearfix:after{ clear:both; content:'.'; display:block; height:0; overflow:hidden; }
+.summersales{background-color:#7fd29c;}
+.Seckill_Wrap01{padding-bottom:28px;}
+.linenav{width:94%;padding:2% 3%;}
+.linenav li{width:21%;margin:1% 1%;padding:1%;text-align:center;font:16px/30px 'Microsoft Yahei';color:#fff;letter-spacing:1px;position:relative;float:left;border-radius:30px;}
+.linenav li.on{background:#fff;color:#454444;}
+.linenav li.wid24{width:24%;}
+.linenav li.wid30{width:30%;}
+.navtab li{background-color:#f71b3f;}
+.moreLink{position:absolute;top:0;left:0;width:100%;height:100%;}
+.seckill{width:96%;padding:1%;margin:10px auto;background-color:#ff9999;}
+.seckill li{background-color:#fff;margin:10px 6px 10px 6px;padding-top:8px;position:relative;min-height:108px;padding-left:145px;}
+.seckill .seckill_pic{position:absolute;top:10px;left:5px;width:226px;}
+.seckill li .seckill_pic img{width:136px;}
+.seckill li h4{color:#000000;font-size:14px;line-height:1.5;min-height:40px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.seckill li p{font-size:13px;color:#999999;padding:10px 15px;line-height:1.5;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.seckill li .price{color:#ff9900;font: bold 12px/1.5 "Microsoft YaHei";margin-top:-3px;}
+.seckill li .price dfn{font-style:normal;font-size:14px;margin-left:15px;}
+.seckill li .price em{font-weight:bold;font-size:14px;font-style:normal;}
+.seckill li .seckill_btn{width:80px;height:21px;line-height:20px;text-align:center;border-radius:10px;background-color:#ff9900;color:#fff;font-size:14px;font-weight:bold;float:right;margin-right:10px;}
+.starting_bg, .starting_city{height:30px;position:absolute;left:5px;top:10px;}
+.starting_bg{width:78px;background-color:#000;opacity:0.6;filter:alpha(opacity=60);}
+.wrapper{padding-bottom:20px;}
+.starting_city{color:#fff;font-size:14px;line-height:30px;padding:0 11px;}
+.sales_part1{width:96%;padding:2%;}
+.navtab2 li{background-color:#c1b319;}
+.sales_list01{width:98%;margin:2% 1% 3% 1%;}
+.sales_list01 li{width:46%;background:#fff;color:#333;position:relative;margin:0% 2% 2% 2%;float:left;}
+.sales_list01 p.sales_name{padding:5px 10px;font:13px 'Microsoft Yahei';overflow:hidden;color:#3e3a39;background-color:#fff;}
+.sales_list01 .sales_price{padding:2% 5% 2% 5%;font: 12px/24px 'Microsoft Yahei';}
+.sales_list01 .sales_price .old_price{color:#999999;text-decoration:line-through;}
+.sales_list01 .sales_price .new_price{float:right;color:#ff9900;font-size:16px;padding-bottom:2%;}
+.sales_list01 .goto_buy{width:97%;margin:3% 2% 3% 1%;font:12px/26px 'Microsoft Yahei';color:#fff;background-color:#ff9900;border-radius:5px;text-align:center;float:right;}
+.navtab3 li{background-color:#f71b3f;}
+.navtab4 li{background-color:#758cfa;}
+.navtab5 li{background-color:#b66f11;}
+.navtab6 li{background-color:#3d71ae;}
+.navtab7 li{background-color:#168bc8;}
+.navtab8 li{background-color:#db7b09;}
+.navtab9 li{background-color:#666633;}
+.foot_part{padding:5px 16px;margin-bottom:40px;}
+.bottom_nav{width:100%;padding:0 6px;z-index:999;}
+.bottom_nav .bottom_navfix{width:98%;margin:0;display:block;background:url(http://pages.ctrip.com/commerce/promote/img/tm80.png);position:fixed;bottom:0;left:0;padding:2% 1% 1% 1%;}
+.bottom_nav li{width:19%;margin:0 .5% 1% 0.5%;font:14px/30px 'Microsoft Yahei';float:left;color:#fff;text-align:center;background-color:#eb0048;position:relative;}
+.bottom_nav .dj{background-color:#eb6100;}

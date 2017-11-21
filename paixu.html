@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script>
+			var aa = [{
+					name: '1',
+					flag3: 24
+				},
+				{
+					name: '2',
+					flag3: 1
+				},
+				{
+					name: '3',
+					flag3: 24
+				},
+				{
+					name: '4',
+					flag3: 24
+				},
+				{
+					name: '5',
+					flag3: 24
+				},
+				{
+					name: '6',
+					flag3: 1
+				},
+				{
+					name: '7',
+					flag3: 24
+				},
+				{
+					name: '8',
+					flag3: 24
+				},
+				{
+					name: '9',
+					flag3: 1
+				}
+			];
+
+			function dataSort(data) {
+				let trigger = [],
+					notTrigger = [],
+					newData = [];
+				for(let n = 0; n < data.length; n++) {
+					if(data[n].flag3 == 24 || data[n].flag3 == 24) {
+						console.log(data[n].flag3)
+						trigger.push(data[n]);
+					} else {
+						notTrigger.push(data[n])
+					}
+				}
+				console.log(trigger, '1', notTrigger, '32')
+				return newData.concat(notTrigger, trigger);
+			}
+			aa = dataSort(aa);
+			console.log(aa);
+		</script>
+	</body>
+
+</html>
